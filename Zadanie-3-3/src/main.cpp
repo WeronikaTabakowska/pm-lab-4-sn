@@ -22,6 +22,7 @@ void loop() {
     delay(1000);
   }
   
+  
   for (int i = (17 - tabLen); i >= 0; i--) {
     lcdClear();
     lcd.setCursor(i, 1);
